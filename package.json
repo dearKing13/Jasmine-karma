@@ -1,16 +1,29 @@
 {
-  "name": "learn-travis-srax",
-  "description": "Simple Travis-CI check for JSHint",
-  "author": "D&D",
-  "version": "3.0.1",
-  "devDependencies": {
-    "jshint": "^2.9.5",
-    "karma": "^2.0.2",
-    "karma-chrome-launcher": "^2.2.0",
-    "karma-firefox-launcher": "^1.1.0",
-    "karma-jasmine": "^1.1.2"
+  "name": "FEJStesting",
+  "version": "0.0.1",
+  "description": "a sample testing setup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dearKing13/Jasmine-karma.git"
   },
-  "scripts": {
-    "test": "jshint hello2.js"
+  "keywords": [
+    "testing",
+    "karma",
+    "jasmin",
+    "travis",
+    "node"
+  ],
+  "author": "@tevko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dearKing13/Jasmine-karma/issues"
+  },
+  "homepage": "https://github.com/dearKing13/Jasmine-karma",
+  "devDependencies": {
+    "jasmine-core": "^2.3.2",
+    "karma": "^0.12.31",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.3.5"
   }
-}
+
