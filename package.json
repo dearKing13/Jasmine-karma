@@ -1,29 +1,29 @@
 {
-  "name": "Jasmine-karma",
-  "version": "0.0.1",
-  "description": "a sample testing setup",
+  "name": "jasmine-karma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dearKing13/Jasmine-karma.git"
+    "url": "git+https://github.com/dearKing13/Jasmine-karma.git"
   },
-  "keywords": [
-    "testing",
-    "karma",
-    "jasmin",
-    "travis",
-    "node"
-  ],
-  "author": "@tevko",
-  "license": "MIT",
+  "author": "diego",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dearKing13/Jasmine-karma/issues"
   },
-  "homepage": "https://github.com/dearKing13/Jasmine-karma",
+  "homepage": "https://github.com/dearKing13/Jasmine-karma#readme",
   "devDependencies": {
-    "jasmine-core": "^2.3.2",
-    "karma": "^0.12.31",
-    "karma-firefox-launcher": "^0.1.4",
-    "karma-chrome-launcher": "^0.1.4",
-    "karma-jasmine": "^0.3.5"
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.2"
   }
-
+}

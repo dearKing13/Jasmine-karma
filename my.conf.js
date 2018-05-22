@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Mon May 21 2018 17:22:26 GMT-0700 (PDT)
+// Generated on Tue May 22 2018 15:28:21 GMT-0700 (PDT)
 
 module.exports = function(config) {
   config.set({
