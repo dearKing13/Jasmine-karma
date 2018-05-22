@@ -1,0 +1,16 @@
+{
+  "name": "learn-travis-srax",
+  "description": "Simple Travis-CI check for JSHint",
+  "author": "D&D",
+  "version": "3.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.5",
+    "karma": "^2.0.2",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.2"
+  },
+  "scripts": {
+    "test": "jshint hello2.js"
+  }
+}
