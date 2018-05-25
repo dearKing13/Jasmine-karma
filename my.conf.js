@@ -13,10 +13,10 @@ module.exports = function(config) {
     frameworks: ['jasmine'],
     
     // NEW PLUGIN SECTION by Spider
-    plugins: [
+   /* plugins: [
       require('karma-jasmine'),
       require('karma-phantomjs-launcher')    
-    ],
+    ],*/
 
     // list of files / patterns to load in the browser
     files: [
